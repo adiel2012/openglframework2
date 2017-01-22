@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de código fuente">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="NewFilter1">
+      <UniqueIdentifier>{8121d45f-821f-481b-9d47-29052ab110c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\core">
+      <UniqueIdentifier>{aecdfcf5-8915-488d-ab08-682b0962215b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\core">
+      <UniqueIdentifier>{40c72c00-763e-46db-ab5a-16f3d21cea4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\core\trash">
+      <UniqueIdentifier>{015fd60f-10a9-4b78-86c5-b17457cd7036}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\core\trash">
+      <UniqueIdentifier>{56ff1fde-d1be-44fb-bfbd-7cf38081003a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IDrawable.h">
+      <Filter>Archivos de encabezado\core</Filter>
+    </ClInclude>
+    <ClInclude Include="CompositeDrawable.h">
+      <Filter>Archivos de encabezado\core</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicTriangle.h">
+      <Filter>Archivos de encabezado\core</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewPort.h">
+      <Filter>Archivos de encabezado\core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CompositeDrawable.cpp">
+      <Filter>Archivos de código fuente\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Archivos de código fuente\core</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicTriangle.cpp">
+      <Filter>Archivos de código fuente\core</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewPort.cpp">
+      <Filter>Archivos de código fuente\core</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial01.cpp">
+      <Filter>Archivos de código fuente\core\trash</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
