@@ -1,13 +1,26 @@
 #pragma once
 
+//#ifndef __BasicTriangle
+//#define __BasicTriangle
+
+
+//#pragma once
+#include "commons.h"
 
 #include "IDrawable.h"
-class BasicTriangle : public IDrawable
+#include "ColoredObject.h"
+class BasicTriangle : virtual public IDrawable, virtual public ColoredObject
 {
-private:
-	float p1x,  p1y,  p1z,  p2x,  p2y,  p2z,  p3x,  p3y,  p3z;
+protected:
+	GLfloat p1x,  p1y,  p1z,  p2x,  p2y,  p2z,  p3x,  p3y,  p3z;
 public:
-	BasicTriangle(float p1x, float p1y, float p1z, float p2x, float p2y, float p2z, float p3x, float p3y, float p3z );
+	BasicTriangle(GLfloat p1x, GLfloat p1y, GLfloat p1z, GLfloat p2x, GLfloat p2y, GLfloat p2z, GLfloat p3x, GLfloat p3y, GLfloat p3z, GLfloat lightcolor[]);
 	~BasicTriangle();
+
+	inline virtual void draw() {
+	     
+	
+	};
 };
 
+//#endif // !__BasicTriangle

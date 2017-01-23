@@ -1,4 +1,10 @@
 #pragma once
+
+//#ifndef __ViewPort
+//#define __ViewPort
+
+
+
 class ViewPort
 {
 public:
@@ -6,3 +12,6 @@ public:
 	~ViewPort();
 };
 
+
+
+//#endif // !__IDrawable

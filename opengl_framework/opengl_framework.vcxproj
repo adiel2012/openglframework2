@@ -116,14 +116,23 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="BasicTriangle.h" />
+    <ClInclude Include="ColoredObject.h" />
+    <ClInclude Include="commons.h" />
     <ClInclude Include="CompositeDrawable.h" />
     <ClInclude Include="IDrawable.h" />
+    <ClInclude Include="PomObject.h" />
     <ClInclude Include="ViewPort.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BasicTriangle.cpp" />
+    <ClCompile Include="ColoredObject.cpp" />
     <ClCompile Include="CompositeDrawable.cpp" />
+    <ClCompile Include="cylinder1.cpp" />
+    <ClCompile Include="house.cpp" />
+    <ClCompile Include="house2.cpp" />
+    <ClCompile Include="PomObject.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Source1.cpp" />
     <ClCompile Include="tutorial01.cpp" />
     <ClCompile Include="ViewPort.cpp" />
   </ItemGroup>

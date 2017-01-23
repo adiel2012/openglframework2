@@ -42,6 +42,15 @@
     <ClInclude Include="ViewPort.h">
       <Filter>Archivos de encabezado\core</Filter>
     </ClInclude>
+    <ClInclude Include="commons.h">
+      <Filter>Archivos de encabezado\core</Filter>
+    </ClInclude>
+    <ClInclude Include="PomObject.h">
+      <Filter>Archivos de encabezado\core</Filter>
+    </ClInclude>
+    <ClInclude Include="ColoredObject.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CompositeDrawable.cpp">
@@ -58,6 +67,24 @@
     </ClCompile>
     <ClCompile Include="tutorial01.cpp">
       <Filter>Archivos de código fuente\core\trash</Filter>
+    </ClCompile>
+    <ClCompile Include="cylinder1.cpp">
+      <Filter>Archivos de código fuente\core\trash</Filter>
+    </ClCompile>
+    <ClCompile Include="house.cpp">
+      <Filter>Archivos de código fuente\core\trash</Filter>
+    </ClCompile>
+    <ClCompile Include="house2.cpp">
+      <Filter>Archivos de código fuente\core\trash</Filter>
+    </ClCompile>
+    <ClCompile Include="Source1.cpp">
+      <Filter>Archivos de código fuente\core\trash</Filter>
+    </ClCompile>
+    <ClCompile Include="PomObject.cpp">
+      <Filter>Archivos de código fuente\core</Filter>
+    </ClCompile>
+    <ClCompile Include="ColoredObject.cpp">
+      <Filter>Archivos de código fuente</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

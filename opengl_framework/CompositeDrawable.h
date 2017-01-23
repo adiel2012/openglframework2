@@ -1,16 +1,19 @@
 #pragma once
 
+//#ifndef __CompositeDrawable
+//#define CompositeDrawable
 
+
+#include "IDrawable.h"
 
 
 #include <iostream>
 #include <vector>
-#include "IDrawable.h"
 #include <memory>
 
 class CompositeDrawable: public IDrawable
 {
-private:
+protected:
 	std::vector<IDrawable> items;
 public:
 	CompositeDrawable();
@@ -28,4 +31,6 @@ public:
 	}
 	
 };
+
+//#endif
 
