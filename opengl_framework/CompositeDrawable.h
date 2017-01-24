@@ -14,7 +14,7 @@
 class CompositeDrawable: public IDrawable
 {
 protected:
-	std::vector<IDrawable> items;
+	std::vector<std::unique_ptr<IDrawable>> items;
 public:
 	CompositeDrawable();
 	~CompositeDrawable();
@@ -22,12 +22,12 @@ public:
 		// http://stackoverflow.com/questions/31410858/adding-elements-to-stdvector-of-an-abstract-class
 		for (int i = 0; i < items.size(); i++)
 		{
-			items[i].draw();
+			items[i]->draw();
 		}	     
 	};
 
-	std::vector<IDrawable>& Items() {
-		return items;
+	std::vector<std::unique_ptr<IDrawable>>* Items() {
+		return &items;
 	}
 	
 };

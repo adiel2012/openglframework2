@@ -39,9 +39,6 @@
     <ClInclude Include="BasicTriangle.h">
       <Filter>Archivos de encabezado\core</Filter>
     </ClInclude>
-    <ClInclude Include="ViewPort.h">
-      <Filter>Archivos de encabezado\core</Filter>
-    </ClInclude>
     <ClInclude Include="commons.h">
       <Filter>Archivos de encabezado\core</Filter>
     </ClInclude>
@@ -49,7 +46,13 @@
       <Filter>Archivos de encabezado\core</Filter>
     </ClInclude>
     <ClInclude Include="ColoredObject.h">
-      <Filter>Archivos de encabezado</Filter>
+      <Filter>Archivos de encabezado\core</Filter>
+    </ClInclude>
+    <ClInclude Include="CuboColored.h">
+      <Filter>Archivos de encabezado\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Archivos de encabezado\core</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -60,9 +63,6 @@
       <Filter>Archivos de código fuente\core</Filter>
     </ClCompile>
     <ClCompile Include="BasicTriangle.cpp">
-      <Filter>Archivos de código fuente\core</Filter>
-    </ClCompile>
-    <ClCompile Include="ViewPort.cpp">
       <Filter>Archivos de código fuente\core</Filter>
     </ClCompile>
     <ClCompile Include="tutorial01.cpp">
@@ -77,14 +77,17 @@
     <ClCompile Include="house2.cpp">
       <Filter>Archivos de código fuente\core\trash</Filter>
     </ClCompile>
-    <ClCompile Include="Source1.cpp">
-      <Filter>Archivos de código fuente\core\trash</Filter>
-    </ClCompile>
     <ClCompile Include="PomObject.cpp">
       <Filter>Archivos de código fuente\core</Filter>
     </ClCompile>
     <ClCompile Include="ColoredObject.cpp">
-      <Filter>Archivos de código fuente</Filter>
+      <Filter>Archivos de código fuente\core</Filter>
+    </ClCompile>
+    <ClCompile Include="CuboColored.cpp">
+      <Filter>Archivos de código fuente\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Archivos de código fuente\core</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

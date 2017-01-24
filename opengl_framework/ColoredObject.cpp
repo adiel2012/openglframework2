@@ -2,11 +2,11 @@
 
 
 
-ColoredObject::ColoredObject(GLfloat lightcolor[])
+ColoredObject::ColoredObject(GLfloat ambientlightcolor[])
 {
-	this->lightcolor[0] = lightcolor[0];
-	this->lightcolor[1] = lightcolor[1];
-	this->lightcolor[2] = lightcolor[2];
+	this->ambientlightcolor[0] = ambientlightcolor[0];
+	this->ambientlightcolor[1] = ambientlightcolor[1];
+	this->ambientlightcolor[2] = ambientlightcolor[2];
 }
 
 
