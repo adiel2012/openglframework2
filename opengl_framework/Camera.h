@@ -7,14 +7,13 @@
 
 #include <iostream>
 #include <memory>
-#include <iostream>
 using namespace std;
 
 
 class Camera
 {
 private:
-	
+	GLfloat eye[3] = { 100,100,100 }, target[3] = {0,0,0};
 	
 	
 public:

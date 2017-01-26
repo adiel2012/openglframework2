@@ -2,7 +2,7 @@
 
 
 
-CuboColored::CuboColored(GLfloat lightcolor[], GLfloat arista):ColoredObject(lightcolor)
+CuboColored::CuboColored(GLfloat lightcolor[], GLfloat arista):ColoredObject::ColoredObject(lightcolor)
 {
 	this->arista = arista;
 }

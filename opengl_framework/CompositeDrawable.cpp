@@ -2,7 +2,7 @@
 
 
 
-CompositeDrawable::CompositeDrawable()
+CompositeDrawable::CompositeDrawable():IDrawable::IDrawable()
 {
 }
 

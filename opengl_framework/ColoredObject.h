@@ -1,45 +1,40 @@
 #pragma once
 #include "commons.h"
-class ColoredObject
+#include "IDrawable.h"
+
+#include <iostream>
+//#include <memory>
+using namespace std;
+#include "Transformable.h"
+
+class ColoredObject: public IDrawable, public Transformable
 {
 
 protected:
-	GLfloat ambientlightcolor[3] = { 0,0,0 };
+	GLfloat color[3] = { 0,0,0 };
 
-	GLfloat glScalef_morph[3] = { 1.0,1.0,1.0 };
-	/*void glRotated(GLdouble angle, GLdouble x, GLdouble y, GLdouble z);*/
-	GLfloat glRotatef_morph[4] = { 0,1.0,0,0 };
-	GLfloat glTranslatef_morph[3] = { 0,0,0 };
+	
 
 public:
-	ColoredObject(GLfloat ambientlightcolor[]);
-	~ColoredObject();
+	
 
-	void Transform() {
-		glScalef(glScalef_morph[0], glScalef_morph[1], glScalef_morph[0]);
-		glRotatef(glRotatef_morph[0], glRotatef_morph[1], glRotatef_morph[2], glRotatef_morph[3]);
-		glTranslatef(glTranslatef_morph[0], glTranslatef_morph[1], glTranslatef_morph[2]);
+	virtual void draw() {
+		cout << "no recargado"<< endl;
 	}
 
-	void glTranslatef( GLdouble x, GLdouble y, GLdouble z) {
-		glTranslatef_morph[0] = x;
-		glTranslatef_morph[1] = y;
-		glTranslatef_morph[2] = z;
-	}
-
-	void glScalef(GLdouble x, GLdouble y, GLdouble z) {
-		glScalef_morph[0] = x;
-		glScalef_morph[1] = y;
-		glScalef_morph[2] = z;
+	ColoredObject::ColoredObject(GLfloat color[]) :IDrawable::IDrawable()
+	{
+		this->color[0] = color[0];
+		this->color[1] = color[1];
+		this->color[2] = color[2];
 	}
 
 
-	void glRotatef(GLdouble angle, GLdouble x, GLdouble y, GLdouble z) {
-		glRotatef_morph[0] = angle;
-		glRotatef_morph[1] = x;
-		glRotatef_morph[2] = y;
-		glRotatef_morph[3] = z;
+	ColoredObject::~ColoredObject()
+	{
 	}
+
+
 };
 
 

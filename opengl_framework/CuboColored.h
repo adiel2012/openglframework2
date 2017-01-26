@@ -1,7 +1,9 @@
 #pragma once
 #include "ColoredObject.h"
 #include "IDrawable.h"
-class CuboColored: public ColoredObject, public IDrawable
+#include "Caca.h"
+
+class CuboColored: public ColoredObject
 {
 private:
 	GLfloat arista;
@@ -9,11 +11,18 @@ public:
 	CuboColored(GLfloat lightcolor[], GLfloat arista);
 	~CuboColored();
 	virtual void draw() {
-		glPushMatrix();
+		glPushMatrix();		
+		glColor3f(color[0], color[1], color[2]);
 		Transform();
-		//glColor3f(1.0f, 1.0f, 1.0f);
-		glutSolidCube(arista);
+		glutSolidCube(arista);		
 		glPopMatrix();
+
+		//Caca::mmm();
+		/*glPushMatrix();
+		glTranslatef(0, 1, 0);
+		glutSolidCube(1);
+		glPopMatrix();*/
+
 	}
 };
 

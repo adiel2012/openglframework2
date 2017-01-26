@@ -9,7 +9,7 @@
 
 #include "IDrawable.h"
 #include "ColoredObject.h"
-class BasicTriangle : virtual public IDrawable, virtual public ColoredObject
+class BasicTriangle : virtual public ColoredObject
 {
 protected:
 	GLfloat p1x,  p1y,  p1z,  p2x,  p2y,  p2z,  p3x,  p3y,  p3z;

@@ -1,17 +1,29 @@
-﻿  Source.cpp
-c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\compositedrawable.h(23): warning C4018: '<': no coinciden signed/unsigned
-c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\coloredobject.h(25): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
-c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\coloredobject.h(26): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
-c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\coloredobject.h(27): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
-c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\coloredobject.h(31): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
-c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\coloredobject.h(32): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
-c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\coloredobject.h(33): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
-c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\coloredobject.h(38): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
-c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\coloredobject.h(39): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
-c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\coloredobject.h(40): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
-c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\coloredobject.h(41): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
+﻿  CuboTextured.cpp
+c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\transformable.h(40): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
+c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\transformable.h(41): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
+c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\transformable.h(42): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
+c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\transformable.h(46): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
+c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\transformable.h(47): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
+c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\transformable.h(48): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
+c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\transformable.h(53): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
+c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\transformable.h(54): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
+c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\transformable.h(55): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
+c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\transformable.h(56): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
   Generando código...
-  Omitiendo... (no se detectaron cambios relevantes)
-  Camera.cpp
-  opengl_framework.vcxproj -> C:\Users\adiel\documents\visual studio 2015\Projects\opengl_framework\Debug\opengl_framework.exe
-  opengl_framework.vcxproj -> C:\Users\adiel\documents\visual studio 2015\Projects\opengl_framework\Debug\opengl_framework.pdb (Partial PDB)
+  Compilando...
+  Source.cpp
+c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\transformable.h(40): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
+c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\transformable.h(41): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
+c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\transformable.h(42): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
+c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\transformable.h(46): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
+c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\transformable.h(47): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
+c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\transformable.h(48): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
+c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\transformable.h(53): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
+c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\transformable.h(54): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
+c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\transformable.h(55): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
+c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\transformable.h(56): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
+c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\compositedrawable.h(26): warning C4018: '<': no coinciden signed/unsigned
+c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\source.cpp(124): warning C4305: '+=': truncamiento de 'double' a 'GLfloat'
+  Generando código...
+  opengl_framework.vcxproj -> C:\Users\adiel\Documents\Visual Studio 2015\Projects\opengl_framework\Debug\opengl_framework.exe
+  opengl_framework.vcxproj -> C:\Users\adiel\Documents\Visual Studio 2015\Projects\opengl_framework\Debug\opengl_framework.pdb (Partial PDB)
