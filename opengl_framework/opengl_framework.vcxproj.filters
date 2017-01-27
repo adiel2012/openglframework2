@@ -28,6 +28,9 @@
     <Filter Include="Archivos de encabezado\core\trash">
       <UniqueIdentifier>{56ff1fde-d1be-44fb-bfbd-7cf38081003a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Archivos de código fuente\core\basic">
+      <UniqueIdentifier>{dc1c74b2-5632-4bb9-95b3-0025b29990fb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IDrawable.h">
@@ -67,6 +70,18 @@
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
     <ClInclude Include="Utils.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="TriangleTextured.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Cylinder.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="CylinderColored.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>
@@ -117,6 +132,18 @@
       <Filter>Archivos de código fuente\core\trash</Filter>
     </ClCompile>
     <ClCompile Include="Utils.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="TriangleTextured.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Archivos de código fuente\core\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Cylinder.cpp">
+      <Filter>Archivos de código fuente\core\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="CylinderColored.cpp">
       <Filter>Archivos de código fuente</Filter>
     </ClCompile>
   </ItemGroup>

@@ -7,6 +7,10 @@
 #include "Camera.h"
 #include "CuboTextured.h"
 #include "Utils.h"
+#include "BasicTriangle.h"
+
+#include "CylinderColored.h"
+#include "TriangleTextured.h"
 
 Camera cam;
 std::unique_ptr<CompositeDrawable> composite(new CompositeDrawable);
@@ -192,12 +196,35 @@ int main(int argc, char * argv[]) {
 	cubo->aglTranslatef(0, -1, -2);
 
 	std::unique_ptr<CuboTextured> cuboT1(new CuboTextured(1,idd));
-
 	cuboT1->aglTranslatef(0, -1, 2);
+
+	std::unique_ptr<CuboTextured> domo(new CuboTextured(10, idd));
+
+	std::unique_ptr<CuboTextured> cuboT2(new CuboTextured(1, idd));
+	cuboT2->aglTranslatef(1, -1, 1);
+	cuboT2->aglScalef(2, 1, 1);
+
+	GLfloat lightcolortcolor[3] = {0.5,0,0.5};
+	std::unique_ptr<BasicTriangle> T1(new BasicTriangle(0,0,1,0,1,0,1,0,0, lightcolortcolor));
+
+	std::unique_ptr<TriangleTextured> T2(new TriangleTextured(1, 1, 2, 1, 2, 1, 2, 1, 1, idd));
+	T2->aglTranslatef(0, 0, 2);
+
+	GLfloat lightcolortcolor2[3] = { 0.5,0.3,0.5 };
+	std::unique_ptr<CylinderColored> cylinder1(new CylinderColored(1, 1, lightcolortcolor2));
+	cylinder1->aglTranslatef(0, 1, -2);
+	
 
 	composite->Items()->push_back(std::move(cubo));
 	composite->Items()->push_back(std::move(cubo2));
 	composite->Items()->push_back(std::move(cuboT1));
+	composite->Items()->push_back(std::move(cuboT2));
+	composite->Items()->push_back(std::move(domo));
+	composite->Items()->push_back(std::move(T1));
+	composite->Items()->push_back(std::move(T2));
+	composite->Items()->push_back(std::move(cylinder1));
+
+	
 
 
 	/* tell GLUT to wait for events */

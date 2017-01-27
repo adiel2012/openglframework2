@@ -1,17 +1,4 @@
-﻿  CuboTextured.cpp
-c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\transformable.h(40): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
-c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\transformable.h(41): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
-c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\transformable.h(42): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
-c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\transformable.h(46): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
-c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\transformable.h(47): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
-c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\transformable.h(48): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
-c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\transformable.h(53): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
-c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\transformable.h(54): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
-c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\transformable.h(55): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
-c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\transformable.h(56): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
-  Generando código...
-  Compilando...
-  Source.cpp
+﻿  Source.cpp
 c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\transformable.h(40): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
 c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\transformable.h(41): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
 c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\transformable.h(42): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
@@ -23,7 +10,8 @@ c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_fra
 c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\transformable.h(55): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
 c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\transformable.h(56): warning C4244: '=': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
 c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\compositedrawable.h(26): warning C4018: '<': no coinciden signed/unsigned
-c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\source.cpp(124): warning C4305: '+=': truncamiento de 'double' a 'GLfloat'
-  Generando código...
+c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\source.cpp(128): warning C4305: '+=': truncamiento de 'double' a 'GLfloat'
+c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\source.cpp(213): warning C4838: la conversión de 'double' en 'GLfloat' requiere una conversión de restricción
+c:\users\adiel\documents\visual studio 2015\projects\opengl_framework\opengl_framework\source.cpp(213): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
   opengl_framework.vcxproj -> C:\Users\adiel\Documents\Visual Studio 2015\Projects\opengl_framework\Debug\opengl_framework.exe
   opengl_framework.vcxproj -> C:\Users\adiel\Documents\Visual Studio 2015\Projects\opengl_framework\Debug\opengl_framework.pdb (Partial PDB)

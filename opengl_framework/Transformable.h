@@ -17,7 +17,7 @@ public:
 		//glColor3f(co.color[0], co.color[1], co.color[2]);
 		glTranslatef(co.glTranslatef_morph[0], co.glTranslatef_morph[1], co.glTranslatef_morph[2]);
 		glRotatef(co.glRotatef_morph[0], co.glRotatef_morph[1], co.glRotatef_morph[2], co.glRotatef_morph[3]);
-		glScalef(co.glScalef_morph[0], co.glScalef_morph[1], co.glScalef_morph[0]);
+		glScalef(co.glScalef_morph[0], co.glScalef_morph[1], co.glScalef_morph[2]);
 
 		/*;
 		*/

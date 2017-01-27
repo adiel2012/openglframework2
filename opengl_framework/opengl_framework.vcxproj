@@ -116,6 +116,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CylinderColored.h" />
     <ClInclude Include="BasicTriangle.h" />
     <ClInclude Include="Caca.h" />
     <ClInclude Include="ColoredObject.h" />
@@ -123,19 +124,24 @@
     <ClInclude Include="CompositeDrawable.h" />
     <ClInclude Include="CuboColored.h" />
     <ClInclude Include="CuboTextured.h" />
+    <ClInclude Include="Cylinder.h" />
     <ClInclude Include="IDrawable.h" />
     <ClInclude Include="PomObject.h" />
     <ClInclude Include="Camera.h" />
     <ClInclude Include="Singleton.h" />
     <ClInclude Include="Transformable.h" />
+    <ClInclude Include="Triangle.h" />
+    <ClInclude Include="TriangleTextured.h" />
     <ClInclude Include="Utils.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CylinderColored.cpp" />
     <ClCompile Include="BasicTriangle.cpp" />
     <ClCompile Include="ColoredObject.cpp" />
     <ClCompile Include="CompositeDrawable.cpp" />
     <ClCompile Include="CuboColored.cpp" />
     <ClCompile Include="CuboTextured.cpp" />
+    <ClCompile Include="Cylinder.cpp" />
     <ClCompile Include="cylinder1.cpp" />
     <ClCompile Include="house.cpp" />
     <ClCompile Include="house2.cpp" />
@@ -144,6 +150,8 @@
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="texture3d.cpp" />
     <ClCompile Include="Transformable.cpp" />
+    <ClCompile Include="Triangle.cpp" />
+    <ClCompile Include="TriangleTextured.cpp" />
     <ClCompile Include="tutorial01.cpp" />
     <ClCompile Include="Camera.cpp" />
     <ClCompile Include="Utils.cpp" />
@@ -158,6 +166,8 @@
     <Import Project="..\packages\glfw.redist.3.2.1\build\native\glfw.redist.targets" Condition="Exists('..\packages\glfw.redist.3.2.1\build\native\glfw.redist.targets')" />
     <Import Project="..\packages\glfw.3.2.1\build\native\glfw.targets" Condition="Exists('..\packages\glfw.3.2.1\build\native\glfw.targets')" />
     <Import Project="..\packages\glm.0.9.7.1\build\native\glm.targets" Condition="Exists('..\packages\glm.0.9.7.1\build\native\glm.targets')" />
+    <Import Project="..\packages\assimp.v140.redist.3.2\build\native\assimp.v140.redist.targets" Condition="Exists('..\packages\assimp.v140.redist.3.2\build\native\assimp.v140.redist.targets')" />
+    <Import Project="..\packages\assimp.v140.3.2\build\native\assimp.v140.targets" Condition="Exists('..\packages\assimp.v140.3.2\build\native\assimp.v140.targets')" />
   </ImportGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
@@ -169,5 +179,7 @@
     <Error Condition="!Exists('..\packages\glfw.redist.3.2.1\build\native\glfw.redist.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\glfw.redist.3.2.1\build\native\glfw.redist.targets'))" />
     <Error Condition="!Exists('..\packages\glfw.3.2.1\build\native\glfw.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\glfw.3.2.1\build\native\glfw.targets'))" />
     <Error Condition="!Exists('..\packages\glm.0.9.7.1\build\native\glm.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\glm.0.9.7.1\build\native\glm.targets'))" />
+    <Error Condition="!Exists('..\packages\assimp.v140.redist.3.2\build\native\assimp.v140.redist.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\assimp.v140.redist.3.2\build\native\assimp.v140.redist.targets'))" />
+    <Error Condition="!Exists('..\packages\assimp.v140.3.2\build\native\assimp.v140.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\assimp.v140.3.2\build\native\assimp.v140.targets'))" />
   </Target>
 </Project>

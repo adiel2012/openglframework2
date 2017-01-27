@@ -26,13 +26,21 @@ public:
 	virtual void draw() {
 		glPushMatrix();
 		//glColor3f(color[0], color[1], color[2]);
-		this->glScalef_morph[0] = arista;
-		this->glScalef_morph[1] = arista;
-		this->glScalef_morph[2] = arista;
+
+
+		GLfloat a = this->glScalef_morph[0], b = this->glScalef_morph[1], c = this->glScalef_morph[2];
+
+		this->glScalef_morph[0] = arista*this->glScalef_morph[0];
+		this->glScalef_morph[1] = arista*this->glScalef_morph[1];
+		this->glScalef_morph[2] = arista*this->glScalef_morph[2];
 		Transform();
 		//glutSolidCube(arista);
 		drawpartial(image_handler);
 		glPopMatrix();
+
+		this->glScalef_morph[0] = a;
+		this->glScalef_morph[1] = b;
+		this->glScalef_morph[2] = c;
 
 		//Caca::mmm();
 		/*glPushMatrix();
@@ -51,6 +59,8 @@ public:
 		
 		glTexEnvf(GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE, GL_REPLACE);
 		glBindTexture(GL_TEXTURE_2D, texture);
+
+		glTranslatef(-0.5, -0.5, -0.5);
 
 		glPushMatrix();
 		glBegin(GL_QUADS);
