@@ -10,7 +10,9 @@
 #include "BasicTriangle.h"
 
 #include "CylinderColored.h"
+#include "CylinderTextured.h"
 #include "TriangleTextured.h"
+#include "SphereTextured.h"
 
 Camera cam;
 std::unique_ptr<CompositeDrawable> composite(new CompositeDrawable);
@@ -180,7 +182,7 @@ int main(int argc, char * argv[]) {
 	/* define the projection transformation */
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
-	gluPerspective(40, 1, 4, 20);
+	gluPerspective(45, 1, 4, 20);
 
 	/* define the viewing transformation */
 	glMatrixMode(GL_MODELVIEW);
@@ -213,6 +215,12 @@ int main(int argc, char * argv[]) {
 	GLfloat lightcolortcolor2[3] = { 0.5,0.3,0.5 };
 	std::unique_ptr<CylinderColored> cylinder1(new CylinderColored(1, 1, lightcolortcolor2));
 	cylinder1->aglTranslatef(0, 1, -2);
+
+	std::unique_ptr<CylinderTextured> cylinder2(new CylinderTextured(1,1,idd));
+	cylinder2->aglTranslatef(-4, -1, -2);
+	
+	std::unique_ptr<SphereTextured> sphere1(new SphereTextured(0.5,idd));
+	sphere1->aglTranslatef(-1, 0, 2);
 	
 
 	composite->Items()->push_back(std::move(cubo));
@@ -223,6 +231,9 @@ int main(int argc, char * argv[]) {
 	composite->Items()->push_back(std::move(T1));
 	composite->Items()->push_back(std::move(T2));
 	composite->Items()->push_back(std::move(cylinder1));
+
+	composite->Items()->push_back(std::move(cylinder2));
+	composite->Items()->push_back(std::move(sphere1));
 
 	
 
